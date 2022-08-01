@@ -24,10 +24,11 @@ Grilling For QB-Core
     Add the following lines to the 'items.lua' file located in qb-core/shared/items.lua
 
     ```lua
-    ['raw_steak'] 				 	 = {['name'] = 'raw_steak', 			  	  	['label'] = 'Raw Steak', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'raw_steak.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice steak ready for the backyard barbecue.'},
-	['cooked_steak'] 				 = {['name'] = 'cooked_steak', 			  	  	['label'] = 'Steak', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'cooked_steak.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice juicy steak.'},
-	['raw_sausage'] 				 = {['name'] = 'raw_sausage', 			  	  	['label'] = 'Raw Sausage', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'raw_sausage.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Some raw links'},
-	['cooked_sausage'] 			 	 = {['name'] = 'cooked_sausage', 			  	['label'] = 'Sausage', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'cooked_sausage.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Tasty sausages. Yum.'},	['outdoor_grill'] 			 	 = {['name'] = 'outdoor_grill', 				['label'] = 'Grill', 					['weight'] = 20000, 	['type'] = 'item', 		['image'] = 'grill-item.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'For all your outdoor bbq needs.'},
+    ['raw_steak'] = {['name'] = 'raw_steak', ['label'] = 'Raw Steak', ['weight'] = 200, ['type'] = 'item', ['image'] = 'raw_steak.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'A nice steak ready for the backyard barbecue.'},
+    ['cooked_steak'] = {['name'] = 'cooked_steak', ['label'] = 'Steak', ['weight'] = 200, ['type'] = 'item', ['image'] = 'cooked_steak.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'A nice juicy steak.'},
+    ['raw_sausage'] = {['name'] = 'raw_sausage', ['label'] = 'Raw Sausage', ['weight'] = 200, ['type'] = 'item', ['image'] = 'raw_sausage.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true,	['combinable'] = nil, ['description'] = 'Some raw links'},
+    ['cooked_sausage'] = {['name'] = 'cooked_sausage', ['label'] = 'Sausage', ['weight'] = 200, ['type'] = 'item', ['image'] = 'cooked_sausage.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Tasty sausages. Yum.'},
+    ['outdoor_grill'] = {['name'] = 'outdoor_grill', ['label'] = 'Grill', ['weight'] = 20000, ['type'] = 'item', ['image'] = 'grill-item.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'For all your outdoor bbq needs.'},
     ```
 
     The imgaes found in the 'images' folder should be placed in qb-inventory/html/images or your inventory of choice.
