@@ -28,6 +28,11 @@ Grilling For QB-Core
     ['raw_sausage'] = {['name'] = 'raw_sausage', ['label'] = 'Raw Sausage', ['weight'] = 200, ['type'] = 'item', ['image'] = 'raw_sausage.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true,	['combinable'] = nil, ['description'] = 'Some raw links'},
     ['cooked_sausage'] = {['name'] = 'cooked_sausage', ['label'] = 'Sausage', ['weight'] = 200, ['type'] = 'item', ['image'] = 'cooked_sausage.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Tasty sausages. Yum.'},
     ['outdoor_grill'] = {['name'] = 'outdoor_grill', ['label'] = 'Grill', ['weight'] = 20000, ['type'] = 'item', ['image'] = 'grill-item.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'For all your outdoor bbq needs.'},
+    
+    Add the following to the 'ConsumablesEat' config under qb-smallresouces
+    
+    ["cooked_sausage"] = math.random(40, 50),
+    ["cooked_steak"] =  math.random(40, 50),
 
     The imgaes found in the 'images' folder should be placed in qb-inventory/html/images or your inventory of choice.
 
